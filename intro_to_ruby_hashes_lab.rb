@@ -49,10 +49,10 @@ def monopoly_with_fourth_tier
       :b_and_o_railroad =>{},
       :shortline_railroad =>{}
     },
-    :reading_railroad => {"mortgage value"=>"$100"}
-    :pennsylvania_railroad => {"mortgage value"=>"$200"}
-    :b_and_o_railroad =>{"mortgage value"=>"$300"}
-    
+    :reading_railroad => {"mortgage value"=>"$100"},
+    :pennsylvania_railroad => {"mortgage value"=>"$200"},
+    :b_and_o_railroad =>{"mortgage value"=>"$400"},
+    :shortline_railroad =>{"mortgage value"=>"$800"}
   }
 }
   # When you start writing the implementation for this method, copy the Hash
